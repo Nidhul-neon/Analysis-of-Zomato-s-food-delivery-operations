@@ -78,7 +78,6 @@ After preprocessing, the cleaned dataset contains:
 | Plotly | Interactive visualization |
 | Jupyter Notebook | Interactive analysis and documentation |
 
-| Git & GitHub | Version control and project sharing |
 
 ## Project Files
 
