@@ -66,6 +66,60 @@ After preprocessing, the cleaned dataset contains:
 - **18 variables**
 - **0 missing values**
 
+## Exploratory Data Analysis (EDA)
+
+The exploratory analysis was conducted using univariate, bivariate, and multivariate approaches to identify patterns and relationships associated with food delivery time.
+
+### Univariate Analysis
+
+The analysis examined the distribution and characteristics of individual variables, including:
+
+- Overall delivery-time distribution
+- Delivery-speed distribution
+- Order-type distribution
+- Descriptive statistics of delivery time
+
+### Bivariate Analysis
+
+Relationships between delivery time and individual operational or environmental factors were analyzed, including:
+
+- Road traffic density
+- Weather conditions
+- Order type
+- Delivery distance
+- City classification
+- Number of multiple deliveries
+
+Statistical summaries, groupby analysis, correlation analysis, and appropriate visualizations were used to examine these relationships.
+
+### Multivariate Analysis
+
+Multiple factors were analyzed together to identify stronger patterns associated with delivery time.
+
+This included:
+
+- Correlation analysis of numerical variables
+- Traffic conditions and multiple deliveries
+- Geographic regions and average delivery time
+
+### Visualizations
+
+The project includes a variety of visualizations created using Matplotlib, Seaborn, and Plotly, including:
+
+- Histograms
+- Bar charts
+- Count plots
+- Pie charts
+- Box plots
+- Scatter plots
+- Line charts
+- Violin plots
+- Heatmaps
+- Interactive Plotly visualizations
+
+The analysis contains **16 visualization instances** covering different aspects of food delivery operations.
+
+
 ## Tools and Technologies
 
 | Tool / Library | Purpose |
