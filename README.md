@@ -119,8 +119,30 @@ The project includes a variety of visualizations created using Matplotlib, Seabo
 
 The analysis contains **16 visualization instances** covering different aspects of food delivery operations.
 
+## Overall Findings
 
-## Tools and Technologies
+- Multiple deliveries showed the strongest positive numerical association with delivery time (**0.383**).
+- Delivery distance also showed a positive association with delivery time (**0.322**).
+- Average delivery time increased from **21.50 minutes** under Low traffic to **31.44 minutes** under Jam conditions.
+- Weather conditions showed noticeable variation, with **Sunny** averaging **22.20 minutes** compared with **29.22 minutes** under Fog.
+- Delivery time varied across locations, while order types showed very little variation (**26.47–26.76 minutes**).
+
+Overall, operational and external factors were more closely associated with delivery time than order type.
+
+## Recommendations
+
+- Optimize multiple-delivery assignments to reduce delivery delays.
+- Incorporate traffic and distance into delivery-time planning.
+- Consider weather conditions when estimating delivery times.
+- Review location-specific delivery patterns to identify areas requiring attention.
+- Prioritize operational factors over order type when improving delivery efficiency.
+
+## Key Considerations
+
+- The analysis identifies **associations, not causation**.
+- The **Semi-Urban** category has only **146 orders**, so its results should be interpreted cautiously.
+- `delivery_speed` was used only descriptively because it is derived from delivery time.
+
 
 | Tool / Library | Purpose |
 |---|---|
